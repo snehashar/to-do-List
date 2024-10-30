@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="items-center justify-center flex">
+    <div class="container border-2 border-solid border-black rounded-xl w-5/12 h-96 p-5">
+        <h1 class="text-center text-black font-sans-serif font-semibold font-mono text-2xl">TO-DO LIST</h1>
+        <div class="todo-list bg-gray-300 w-full pl-3 h-12 mt-3 rounded-2xl flex items-center flex-row justify-between gap-4">
+            <input type="text" class="input-task flex-1 border-none outline-none p-1 bg-transparent" placeholder="Add a new task...">
+            <button class="h-12 w-16 bg-orange-500 border border-solid border-black rounded-3xl add-button">Add</button>
+        </div>
+        <ul class=" mt-5 text-start ml-4 text-lg task-list">
+            <!-- Task items will be added here -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
